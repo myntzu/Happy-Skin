@@ -1,0 +1,227 @@
+
+
+body{
+    background-color: white;
+}
+#header{
+    font-size: 50px;
+    font-family: Georgia;
+    font-variant: Small Caps;
+    line-height: 1.4;
+    text-align: center;
+    letter-spacing: 3px;
+    color: black;
+    margin-top: 100px;
+    text-shadow: 1px 1px 1px #98A886;
+}
+.navbar{
+    overflow: hidden;
+    position: fixed;
+    min-width: max-content;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgb(173, 140, 140);
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.navbar a{
+    float: left;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    padding: 20px 15px 0px;
+    text-decoration: none;
+    height: 40px;
+}
+
+.dropdown{
+    float: left;
+    overflow: hidden;
+}
+.dropbtn{
+    font-size: 16px;
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    height: 58px;
+    font-family: inherit;
+    margin: 0px;
+    cursor: pointer;
+}
+.navbar a:hover, .dropdown:hover .dropbtn{
+    opacity: 0.6;
+}
+.dropdown-content{
+    display: none;
+    position: fixed;
+    text-align: center;
+    background-color: #f9f9f9;
+    min-width: 160px;
+}
+.dropdown-content a{
+    float:none;
+    padding: 12px 16px;
+    display: block;
+    color: black;
+    text-align:left;
+}
+.dropdown-content a:hover{
+    background-color: #FFDAC1;
+}
+.dropdown:hover .dropdown-content{
+    display: block;
+}
+.icon{
+    float:right;
+    overflow: hidden;  
+    
+}
+.qty{
+    color: white;
+    position: inherit;
+}
+
+button{
+    background-color:inherit;
+}
+.navbar .icon button{
+    padding-top:17px
+}
+.icon .dropdown-content{
+    position:fixed;
+    right: 1px;
+    text-align: center;
+}
+.image{
+    margin: 40px 20px;
+    text-align: center;
+    box-shadow: 0px 4px 8px 0;
+    background-color: whitesmoke;
+    width: 300px;
+}
+.price{
+    color: inherit;
+    font-size: 12pt;
+}
+.imgbtn{
+    padding: 12px;
+    margin:10px;
+    text-align: center;
+    color: white;
+    background-color: rgb(173, 140, 140);
+    width: 80%;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.pic{
+    width: 90%;
+    max-height: 300px;
+    padding: 0;
+    margin:10px 5px;
+}
+.container{
+    display:flex;
+    flex-direction: row;
+    justify-content: center; 
+}
+.title{
+    margin: 0px;
+}
+footer{
+    position: relative;
+    text-align: center;
+    width: 100%;
+    height: max-content;
+    margin-bottom: 0;
+    color: black;   
+}
+footer p{
+    padding-bottom: 10px;
+}
+
+footer img{
+    width: 50px;
+}
+.modal{
+    display:none;
+    width: 60%;
+    max-height: 50%;
+    position: fixed;
+    left: 20%;
+    right: 20%;
+    top: 25%;
+    text-align: center;
+    font: black;
+    background-color: white;
+    border: 2px solid;
+}
+
+input[name="email"]{
+    font-size: 14px;
+    padding: 5px;
+    margin: 16px 5px;
+    width: 70%;
+}
+.close{
+    position: absolute;
+    top: 5px;
+    right: 15px;
+    cursor: pointer;
+    font-size: 30px;
+    color: white;
+}
+.close:hover{
+    opacity: 0.6;
+}
+.newsletter{
+    width: 50%;
+    position: relative;
+    text-align: center;
+    left: 25%;
+}
+.newsletter h2{
+    font-size: 40px;
+    font-weight: bolder;
+    margin: 0;
+}
+.newbtn{
+    background-color: rgb(173, 140, 140);
+    color: white;
+    width: 50%;
+    font-size:16px;
+    padding: 10px;
+    margin: 5px;
+}
+.cartbtn{
+    display: none;
+    background-color: rgb(173, 140, 140);
+    color: white;
+    width: 20%;
+    font-size:12px;
+    padding: 5px;
+    margin: 15px;
+}
+.modal-content {
+    background-color: #fefefe;
+    margin: 15% auto; 
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+}
+.row{
+    margin: 3px;
+    padding: 3px;
+    justify-content: space-between;
+}
+
+.cart-content{
+    max-height: calc(100vh - 400px);
+    overflow-y: auto;
+}
+.testing{
+    margin-top: 1px;
+    padding: 5px 10px;
+    width: 7%;
+}

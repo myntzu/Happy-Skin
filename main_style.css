@@ -1,0 +1,301 @@
+#header{
+    font-size: 50px;
+    font-family: Georgia;
+    font-variant: Small Caps;
+    line-height: 1.4;
+    text-align: center;
+    letter-spacing: 3px;
+    color: black;
+    margin-top: 100px;
+    text-shadow: 1px 1px 1px #98A886;
+    }
+    
+#slider{
+    margin-top: 40px;
+    overflow: hidden;
+    display: block;
+    box-shadow: 1px 2px 2px 1px #98A886;
+    }
+
+#slider figure{
+    position: relative;
+    width: 500%;
+    margin: 0;
+    left: 0;
+    animation: 20s slider infinite;
+    }
+    
+#slider figure img{
+    float: left;
+    width: 20%;
+    }
+    
+@keyframes slider{
+    0%{
+        left: 0;
+        }
+    20%{
+        left: 0;
+        }
+    25%{
+        left: -100%;
+        }
+    45%{
+        left: -100%;
+        }
+    50%{
+        left: -200%;
+        }
+    70%{
+        left: -200%;
+        }
+    75%{
+        left: -300%;
+        }
+    90%{
+        left: -300%;
+        }
+    100%{
+        left: -400%;
+        }
+    }
+    
+#new{
+    color: #D4AA7D;
+    }
+    
+
+body{
+    overflow: auto;
+    height: 1000px;
+    display: flex;
+    flex-direction: column;
+    }
+    
+h1{
+    margin: 0;
+    font-size: 55px;
+    padding: 100px 0px 0px 13px;
+    letter-spacing: 3px;
+    font-family: Times;
+    color: #F28F3B;
+    text-shadow: 1px 1px 1px #98A886;
+    }
+
+p{
+    margin: 0;
+    padding: 17px 10px;
+    font-family: Arial;
+    font-size: 16px;
+    line-height: 25px;
+    color: #404040;
+    text-align: justify;
+    padding-top: 35px;
+    }
+
+h6{
+    font-size: 20px;
+    margin: 0;
+    letter-spacing:4px;
+    opacity: 0.5;
+    text-transform: lowercase;
+    font-family: arial;
+    letter-spacing: 12px;
+    }
+    
+        
+.information{
+        padding-top: 50px;
+        padding: 17px 10px;
+        width: 60%;
+        margin-top: 4px;
+        float: left;
+        }
+
+.tester1{
+    margin-bottom: 30px;
+    padding: 5px;
+    padding-left: 55px;
+    width: 20%;
+    }
+    
+.banner{
+    margin: 0;
+    margin-bottom: 80px;
+    padding: 17px 10px;
+    width: 100%;
+    }
+
+.newblock{
+    margin-top: 5px;
+    padding: 17px 10px;
+    width: 100%;
+    float: left;
+    }
+    
+.container1{
+    width: 98%;
+    margin: auto;
+    margin-top: 10px;
+    }
+
+.container2{
+    width: 100%;
+    margin: auto;
+    padding-top: 10px;
+    }
+
+.container3{
+    width: 93%;
+    height: 100%;
+    margin: auto;
+    font-family: arial;
+    }
+    
+.content1{
+    width: 100%;
+    font-family: arial;
+    }
+
+.testing{
+    margin-top: 1px;
+    padding: 5px 10px;
+    width: 7%;
+    }
+    
+
+.contact{
+    margin-top: 1px;
+    padding: 5px 10px;
+    width: 5%;
+    }
+
+
+.navbar{
+        flex-direction: row;
+        overflow: hidden;
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        background-color: rgb(173, 140, 140);
+        font-family:Verdana, Geneva, Tahoma, sans-serif;
+    }
+    .navbar a{
+        float: left;
+        font-size: 16px;
+        color: white;
+        text-align: center;
+        padding: 20px 15px 0px;
+        text-decoration: none;
+        height: 40px;
+    }
+    .navbar input{
+        float:left;
+        font-size: inherit;
+        margin: 15px 10px;
+        width: 20%;
+    }
+    .dropdown{
+        float: left;
+        overflow: hidden;
+    }
+    .dropbtn{
+        font-size: 16px;
+        border: none;
+        outline: none;
+        color: white;
+        padding: 14px 16px;
+        height: 58px;
+        font-family: inherit;
+        margin: 0px;
+        cursor: pointer;
+    }
+    .navbar a:hover, .dropdown:hover .dropbtn{
+        opacity: 0.6;
+    }
+    .dropdown-content{
+        display: none;
+        position: fixed;
+        text-align: center;
+        background-color: #f9f9f9;
+        min-width: 160px;
+    }
+    .dropdown-content a{
+        float:none;
+        padding: 12px 16px;
+        display: block;
+        text-align:left;
+        color: black;
+    }
+    .dropdown-content a:hover{
+        background-color: #FFDAC1;
+    }
+    .dropdown:hover .dropdown-content{
+        display: block;
+        }
+    .icon{
+        float:right;
+        overflow: hidden;  
+        }
+    button{
+        background-color:inherit;;
+        }
+    .navbar .icon button{
+        padding-top:17px
+        }
+    .icon .dropdown-content{
+        position:fixed;
+        right: 1px;
+        text-align: center;
+        }
+        
+    .productpic{
+        width: 30%;
+        float: right;
+        padding-right: 50px;
+        margin-bottom: 7px;
+        }
+    
+    .pic1{
+        width: 8%;
+        padding: 20px 30px 20px 30px;
+        margin-top: 4px;
+        align: center;
+        }
+    
+    footer{
+        text-transform: uppercase;
+        position: relative;
+        text-align: center;
+        width: 100%;
+        bottom: 0;
+        color: #404040;   
+    }
+
+    footer img{
+        width: 70px;
+        padding: 10px;
+    }
+    
+                .newsletter{
+        width: 50%;
+        font-size: 10px;
+        position: relative;
+        text-align: center;
+        left: 25%;
+    }
+    .newsletter h2{
+        font-size: 40px;
+        font-weight: bolder;
+        margin: 0;
+    }
+    .newbtn{
+        background-color: rgb(173, 140, 140);
+        color: white;
+        width: 50%;
+        font-size:16px;
+        padding: 10px;
+        margin: 5px;
+    }
+    
